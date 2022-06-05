@@ -1,0 +1,1457 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#"
+     xml:base="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Announced -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Announced">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Private_candidate"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Regular_candidate"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Result"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#apply_for -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#apply_for">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Transcript"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#enrolled_in -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#enrolled_in">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Private_candidate"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Regular_candidate"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Degree"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A_IT"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Fsc"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Fsc_pre_eng"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Fsc_pre_medical"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#I.Com"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#ICS"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#ICS_Physics"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#ICS_Statistics"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#has_candidate -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#has_candidate">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Private_candidate"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Regular_candidate"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#has_choose -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#has_choose">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Course"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#have -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#have">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Private_candidate"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Regular_candidate"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Course"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A_IT_course"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A_course"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A_simple_course"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.sc_course"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Fsc_eng_course"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Fsc_med_course"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#I.com_course"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#ICS_Physics_course"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#ICS_statistics_course"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Ics_course"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#have_duties -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#have_duties">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Staff"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Admin"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Chairman"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Examiner/controller"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#include -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#include"/>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#may_be -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#may_be"/>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#may_have -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#may_have">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Private_candidate"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Regular_candidate"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Government_institute"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Private_institute"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#institute"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#registered_through -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#registered_through">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Private_candidate"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Regular_candidate"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Online_registration"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Physical_registration"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Registration"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#work_as_a -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#work_as_a">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Staff"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Admin"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Chairman"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Examiner/controller"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate_Roll_no -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate_Roll_no">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate_Roll_no"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate_age -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate_age">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate_age"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate_name -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate_name">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate_name"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Course_code -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Course_code">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Course"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A_IT_course"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A_course"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A_simple_course"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.sc_course"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Fsc_eng_course"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Fsc_med_course"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#I.com_course"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#ICS_Physics_course"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#ICS_statistics_course"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Ics_course"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Evening -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Evening">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Exam"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Exam_shedule"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Grades -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Grades">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidates_criteria"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Result"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Jamaya_secondary_high_school -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Jamaya_secondary_high_school">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Exam_centre"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Long_Questions -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Long_Questions">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Question_paper"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Subjective"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Marks_in_numbers -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Marks_in_numbers"/>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Morning -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Morning">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Exam"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Exam_shedule"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Percentage -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Percentage">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidates_criteria"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Result"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Phone_number -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Phone_number"/>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Short_Questions -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Short_Questions">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Objective"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Question_paper"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#subjects -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#subjects">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Course"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A_IT_course"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A_course"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A_simple_course"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.sc_course"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Fsc_eng_course"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Fsc_med_course"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#I.com_course"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#ICS_Physics_course"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#ICS_statistics_course"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Ics_course"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#2015-2017 -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#2015-2017">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Session"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Year"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#2018-2020 -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#2018-2020"/>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#MCQ&apos;S -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#MCQ&apos;S">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Objective"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Question_paper"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Admin -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Admin">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#have_duties"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Exam_schedule"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#have_duties"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#mechanism_for_conducting_exams"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#have_duties"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#registration"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Staff"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Assign_duties -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Assign_duties">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Duties_of_staff"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#enrolled_in"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Degree"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#has_choose"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">6</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Course"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate_Roll_no"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">6</owl:maxQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate_age"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">20</owl:maxQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidates_criteria -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidates_criteria">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Result"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Chairman -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Chairman">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#have_duties"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Assign_duties"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#have_duties"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Conduct_meeting"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Staff"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Conduct_meeting -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Conduct_meeting">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Duties_of_staff"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Course -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Course">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#subjects"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">6</owl:maxQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Degree -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Degree"/>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Duties_of_staff -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Duties_of_staff"/>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Exam -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Exam"/>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Exam_centre -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Exam_centre">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Jamaya_secondary_high_school"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Exam_schedule -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Exam_schedule">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Duties_of_staff"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Exam_shedule -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Exam_shedule">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Evening"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Morning"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Exam"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Degree"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A_IT -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A_IT">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A_IT_course -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A_IT_course">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A_course"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A_course -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A_course">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Course"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A_simple -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A_simple">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A_simple_course -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A_simple_course">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A_course"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.sc_course -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.sc_course">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Course"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Fsc -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Fsc">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Degree"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Fsc_eng_course -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Fsc_eng_course">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.sc_course"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Fsc_med_course -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Fsc_med_course">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.sc_course"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Fsc_pre_eng -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Fsc_pre_eng">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Fsc"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Fsc_pre_medical -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Fsc_pre_medical">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Fsc"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Government_institute -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Government_institute">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#institute"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#I.Com -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#I.Com">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Degree"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#I.com_course -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#I.com_course">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Course"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#ICS -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#ICS">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Degree"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#ICS_Physics -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#ICS_Physics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#ICS"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#ICS_Physics_course -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#ICS_Physics_course">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Ics_course"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#ICS_Statistics -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#ICS_Statistics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#ICS"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#ICS_statistics_course -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#ICS_statistics_course">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Ics_course"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Ics_course -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Ics_course">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Course"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Manage_time -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Manage_time">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Duties_of_staff"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Objective -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Objective">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Short_Questions"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#MCQ&apos;S"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Question_paper"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Online_registration -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Online_registration">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate_Roll_no"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate_age"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate_name"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Phone_number"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Registration"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Physical_registration -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Physical_registration">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate_Roll_no"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate_age"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate_name"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Phone_number"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Registration"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Private_candidate -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Private_candidate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Private_institute -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Private_institute">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#institute"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Question_paper -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Question_paper">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Exam"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Registration -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Registration"/>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Regular_candidate -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Regular_candidate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Result -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Result">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Grades"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Marks_in_numbers"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Percentage"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Roll_no_slip -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Roll_no_slip">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate_Roll_no"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate_name"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Grades"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Marks_in_numbers"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Percentage"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Session -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Session">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#2015-2017"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#2018-2020"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Staff -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Staff"/>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Subjective -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Subjective">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Long_Questions"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Question_paper"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Transcript -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Transcript">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate_Roll_no"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate_age"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate_name"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Grades"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Jamaya_secondary_high_school"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Marks_in_numbers"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Percentage"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Phone_number"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Year -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Year">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Session"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#institute -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#institute">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#may_be"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Government_institute"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Private_institute"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#invigilation -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#invigilation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Duties_of_staff"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#mechanism_for_conducting_exams -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#mechanism_for_conducting_exams">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Duties_of_staff"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#registration -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#registration">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Duties_of_staff"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Examiner/controller -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Examiner/controller">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#have_duties"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Manage_time"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#have_duties"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#invigilation"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Staff"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Biology -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Biology">
+        <rdf:type rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Fsc_med_course"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Business_mathmetics_and_statistics -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Business_mathmetics_and_statistics"/>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate_id -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate_id"/>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate_name -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate_name"/>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Chemistry -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Chemistry">
+        <rdf:type rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Fsc_eng_course"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Fsc_med_course"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Chemistry_med -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Chemistry_med"/>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Computer -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Computer">
+        <rdf:type rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A_IT_course"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#ICS_Physics_course"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#ICS_statistics_course"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Economics -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Economics">
+        <rdf:type rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A_IT_course"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A_simple_course"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Education -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Education">
+        <rdf:type rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A_simple_course"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Email -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Email"/>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#English -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#English">
+        <rdf:type rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A_IT_course"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A_simple_course"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Fsc_eng_course"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Fsc_med_course"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#I.com_course"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#ICS_Physics_course"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#ICS_statistics_course"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Islamiyat_compulsary -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Islamiyat_compulsary">
+        <rdf:type rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Fsc_eng_course"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Fsc_med_course"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#I.com_course"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#ICS_Physics_course"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#ICS_statistics_course"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Islamiyat_elective -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Islamiyat_elective"/>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Math -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Math">
+        <rdf:type rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A_IT_course"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A_simple_course"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#I.com_course"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Mathmetics -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Mathmetics">
+        <rdf:type rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A_IT_course"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Fsc_eng_course"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Fsc_med_course"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#ICS_Physics_course"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#ICS_statistics_course"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Mobile_no -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Mobile_no"/>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Pakistan_studies -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Pakistan_studies"/>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Physics -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Physics">
+        <rdf:type rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Fsc_eng_course"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Fsc_med_course"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#ICS_Physics_course"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Physics_med -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Physics_med"/>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Practical -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Practical">
+        <rdf:type rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A_IT"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Fsc_pre_eng"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Fsc_pre_medical"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#I.Com"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#ICS_Physics"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#ICS_Statistics"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Principle_of_accounting -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Principle_of_accounting">
+        <rdf:type rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#I.com_course"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Sociology -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Sociology">
+        <rdf:type rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A_simple_course"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Statistics -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Statistics">
+        <rdf:type rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#ICS_statistics_course"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Theory_exams -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Theory_exams">
+        <rdf:type rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A_IT"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A_simple"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Fsc_pre_eng"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Fsc_pre_medical"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#I.Com"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#ICS_Physics"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#ICS_Statistics"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Urdu -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Urdu">
+        <rdf:type rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A_IT_course"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A_simple_course"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Fsc_eng_course"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Fsc_med_course"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#I.com_course"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#ICS_Physics_course"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#ICS_statistics_course"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#viva -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#viva">
+        <rdf:type rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A_IT"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Fsc_pre_eng"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Fsc_pre_medical"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#I.Com"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#ICS_Physics"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#ICS_Statistics"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Principle_of_Eco_&amp;_commercial_geo -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Principle_of_Eco_&amp;_commercial_geo"/>
+    
+
+
+    <!-- http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Principle_of_commerce_&amp;_Banking_/computer -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Principle_of_commerce_&amp;_Banking_/computer">
+        <rdf:type rdf:resource="http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#I.com_course"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/ -->
+
+

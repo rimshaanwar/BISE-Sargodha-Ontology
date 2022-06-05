@@ -1,0 +1,796 @@
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Announced
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Announced> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Announced> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Announced> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Private_candidate> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Announced> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Regular_candidate> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Announced> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Result> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#apply_for
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#apply_for> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#apply_for> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#apply_for> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Transcript> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#enrolled_in
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#enrolled_in> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#enrolled_in> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#enrolled_in> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Private_candidate> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#enrolled_in> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Regular_candidate> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#enrolled_in> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Degree> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#enrolled_in> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#enrolled_in> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A_IT> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#enrolled_in> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Fsc> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#enrolled_in> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Fsc_pre_eng> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#enrolled_in> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Fsc_pre_medical> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#enrolled_in> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#I.Com> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#enrolled_in> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#ICS> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#enrolled_in> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#ICS_Physics> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#enrolled_in> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#ICS_Statistics> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#has_candidate
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#has_candidate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#has_candidate> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#has_candidate> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Private_candidate> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#has_candidate> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Regular_candidate> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#has_choose
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#has_choose> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#has_choose> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Course> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#has_choose> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#have
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#have> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#have> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#have> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Private_candidate> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#have> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Regular_candidate> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#have> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Course> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#have> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A_IT_course> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#have> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A_course> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#have> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A_simple_course> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#have> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.sc_course> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#have> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Fsc_eng_course> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#have> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Fsc_med_course> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#have> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#I.com_course> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#have> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#ICS_Physics_course> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#have> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#ICS_statistics_course> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#have> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Ics_course> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#have_duties
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#have_duties> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#have_duties> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Staff> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#have_duties> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Admin> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#have_duties> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Chairman> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#have_duties> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Examiner/controller> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#include
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#include> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#may_be
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#may_be> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#may_have
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#may_have> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#may_have> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#may_have> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Private_candidate> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#may_have> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Regular_candidate> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#may_have> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Government_institute> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#may_have> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Private_institute> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#may_have> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#institute> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#registered_through
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#registered_through> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#registered_through> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#registered_through> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Private_candidate> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#registered_through> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Regular_candidate> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#registered_through> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Online_registration> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#registered_through> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Physical_registration> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#registered_through> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Registration> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#work_as_a
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#work_as_a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#work_as_a> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Staff> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#work_as_a> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Admin> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#work_as_a> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Chairman> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#work_as_a> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Examiner/controller> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate_Roll_no
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate_Roll_no> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate_Roll_no> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate_Roll_no> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid1 .
+_:genid1 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid1 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate_Roll_no> .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate_Roll_no> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate_age
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate_age> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate_age> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate_age> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid2 .
+_:genid2 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#integer> .
+_:genid2 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate_age> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate_age> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate_name
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate_name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate_name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate_name> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid3 .
+_:genid3 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid3 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate_name> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate_name> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Course_code
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Course_code> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Course_code> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Course> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Course_code> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A_IT_course> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Course_code> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A_course> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Course_code> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A_simple_course> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Course_code> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.sc_course> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Course_code> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Fsc_eng_course> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Course_code> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Fsc_med_course> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Course_code> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#I.com_course> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Course_code> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#ICS_Physics_course> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Course_code> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#ICS_statistics_course> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Course_code> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Ics_course> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Course_code> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Evening
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Evening> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Evening> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Exam> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Evening> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Exam_shedule> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Evening> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Grades
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Grades> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Grades> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidates_criteria> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Grades> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Result> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Grades> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Jamaya_secondary_high_school
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Jamaya_secondary_high_school> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Jamaya_secondary_high_school> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Exam_centre> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Jamaya_secondary_high_school> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Long_Questions
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Long_Questions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Long_Questions> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Question_paper> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Long_Questions> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Subjective> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Long_Questions> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Marks_in_numbers
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Marks_in_numbers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Morning
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Morning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Morning> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Exam> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Morning> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Exam_shedule> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Morning> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Percentage
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Percentage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Percentage> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidates_criteria> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Percentage> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Result> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Phone_number
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Phone_number> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Short_Questions
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Short_Questions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Short_Questions> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Objective> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Short_Questions> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Question_paper> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Short_Questions> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#subjects
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#subjects> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#subjects> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Course> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#subjects> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A_IT_course> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#subjects> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A_course> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#subjects> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A_simple_course> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#subjects> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.sc_course> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#subjects> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Fsc_eng_course> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#subjects> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Fsc_med_course> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#subjects> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#I.com_course> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#subjects> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#ICS_Physics_course> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#subjects> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#ICS_statistics_course> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#subjects> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Ics_course> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#subjects> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#2015-2017
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#2015-2017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#2015-2017> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Session> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#2015-2017> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Year> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#2015-2017> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#2018-2020
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#2018-2020> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#MCQ'S
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#MCQ'S> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#MCQ'S> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Objective> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#MCQ'S> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Question_paper> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#MCQ'S> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Admin
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Admin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Admin> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid4 .
+_:genid4 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Exam_schedule> .
+_:genid4 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#have_duties> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Admin> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid5 .
+_:genid5 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#mechanism_for_conducting_exams> .
+_:genid5 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#have_duties> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Admin> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid6 .
+_:genid6 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#registration> .
+_:genid6 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#have_duties> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Admin> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Staff> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Assign_duties
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Assign_duties> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Assign_duties> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Duties_of_staff> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid7 .
+_:genid7 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Degree> .
+_:genid7 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid7 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#enrolled_in> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid8 .
+_:genid8 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Course> .
+_:genid8 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "6"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid8 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#has_choose> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid9 .
+_:genid9 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#integer> .
+_:genid9 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "6"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid9 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate_Roll_no> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid10 .
+_:genid10 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#int> .
+_:genid10 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "20"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid10 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate_age> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidates_criteria
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidates_criteria> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidates_criteria> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Result> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Chairman
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Chairman> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Chairman> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid11 .
+_:genid11 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Assign_duties> .
+_:genid11 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#have_duties> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Chairman> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid12 .
+_:genid12 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Conduct_meeting> .
+_:genid12 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#have_duties> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Chairman> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Staff> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Conduct_meeting
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Conduct_meeting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Conduct_meeting> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Duties_of_staff> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Course
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Course> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Course> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid13 .
+_:genid13 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid13 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "6"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid13 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#subjects> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Degree
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Degree> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Duties_of_staff
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Duties_of_staff> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Exam
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Exam> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Exam_centre
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Exam_centre> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Exam_centre> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid14 .
+_:genid14 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid14 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Jamaya_secondary_high_school> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Exam_schedule
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Exam_schedule> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Exam_schedule> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Duties_of_staff> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Exam_shedule
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Exam_shedule> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Exam_shedule> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid15 .
+_:genid15 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid15 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Evening> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Exam_shedule> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid16 .
+_:genid16 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid16 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Morning> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Exam_shedule> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Exam> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Degree> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A_IT
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A_IT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A_IT> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A_IT_course
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A_IT_course> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A_IT_course> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A_course> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A_course
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A_course> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A_course> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Course> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A_simple
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A_simple> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A_simple> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A_simple_course
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A_simple_course> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A_simple_course> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A_course> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.sc_course
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.sc_course> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.sc_course> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Course> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Fsc
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Fsc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Fsc> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Degree> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Fsc_eng_course
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Fsc_eng_course> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Fsc_eng_course> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.sc_course> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Fsc_med_course
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Fsc_med_course> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Fsc_med_course> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.sc_course> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Fsc_pre_eng
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Fsc_pre_eng> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Fsc_pre_eng> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Fsc> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Fsc_pre_medical
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Fsc_pre_medical> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Fsc_pre_medical> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Fsc> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Government_institute
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Government_institute> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Government_institute> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#institute> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#I.Com
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#I.Com> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#I.Com> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Degree> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#I.com_course
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#I.com_course> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#I.com_course> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Course> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#ICS
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#ICS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#ICS> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Degree> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#ICS_Physics
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#ICS_Physics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#ICS_Physics> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#ICS> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#ICS_Physics_course
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#ICS_Physics_course> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#ICS_Physics_course> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Ics_course> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#ICS_Statistics
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#ICS_Statistics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#ICS_Statistics> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#ICS> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#ICS_statistics_course
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#ICS_statistics_course> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#ICS_statistics_course> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Ics_course> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Ics_course
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Ics_course> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Ics_course> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Course> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Manage_time
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Manage_time> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Manage_time> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Duties_of_staff> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Objective
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Objective> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Objective> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid17 .
+_:genid17 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid17 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Short_Questions> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Objective> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid18 .
+_:genid18 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid18 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#MCQ'S> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Objective> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Question_paper> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Online_registration
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Online_registration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Online_registration> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid19 .
+_:genid19 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid19 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate_Roll_no> .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Online_registration> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid20 .
+_:genid20 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid20 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate_age> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Online_registration> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid21 .
+_:genid21 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid21 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate_name> .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Online_registration> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid22 .
+_:genid22 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid22 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Phone_number> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Online_registration> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Registration> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Physical_registration
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Physical_registration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Physical_registration> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid23 .
+_:genid23 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid23 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate_Roll_no> .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Physical_registration> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid24 .
+_:genid24 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid24 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate_age> .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Physical_registration> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid25 .
+_:genid25 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid25 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate_name> .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Physical_registration> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid26 .
+_:genid26 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid26 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Phone_number> .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Physical_registration> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Registration> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Private_candidate
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Private_candidate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Private_candidate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Private_institute
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Private_institute> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Private_institute> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#institute> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Question_paper
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Question_paper> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Question_paper> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Exam> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Registration
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Registration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Regular_candidate
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Regular_candidate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Regular_candidate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Result
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Result> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Result> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid27 .
+_:genid27 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid27 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Grades> .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Result> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid28 .
+_:genid28 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid28 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Marks_in_numbers> .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Result> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid29 .
+_:genid29 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid29 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Percentage> .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Roll_no_slip
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Roll_no_slip> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Roll_no_slip> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid30 .
+_:genid30 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid30 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate_Roll_no> .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Roll_no_slip> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid31 .
+_:genid31 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid31 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate_name> .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Roll_no_slip> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid32 .
+_:genid32 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid32 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Grades> .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Roll_no_slip> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid33 .
+_:genid33 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid33 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Marks_in_numbers> .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Roll_no_slip> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid34 .
+_:genid34 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid34 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Percentage> .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Session
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Session> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Session> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid35 .
+_:genid35 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#integer> .
+_:genid35 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#2015-2017> .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Session> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid36 .
+_:genid36 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#integer> .
+_:genid36 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#2018-2020> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Staff
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Staff> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Subjective
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Subjective> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Subjective> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid37 .
+_:genid37 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid37 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Long_Questions> .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Subjective> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Question_paper> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Transcript
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Transcript> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Transcript> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid38 .
+_:genid38 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#integer> .
+_:genid38 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate_Roll_no> .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Transcript> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid39 .
+_:genid39 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#integer> .
+_:genid39 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate_age> .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Transcript> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid40 .
+_:genid40 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#integer> .
+_:genid40 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate_name> .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Transcript> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid41 .
+_:genid41 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#integer> .
+_:genid41 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Grades> .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Transcript> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid42 .
+_:genid42 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#integer> .
+_:genid42 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Jamaya_secondary_high_school> .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Transcript> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid43 .
+_:genid43 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#integer> .
+_:genid43 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Marks_in_numbers> .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Transcript> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid44 .
+_:genid44 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#integer> .
+_:genid44 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Percentage> .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Transcript> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid45 .
+_:genid45 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#integer> .
+_:genid45 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Phone_number> .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Year
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Year> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Year> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Session> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#institute
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#institute> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#institute> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid46 .
+_:genid46 <http://www.w3.org/2002/07/owl#allValuesFrom> _:genid47 .
+_:genid47 <http://www.w3.org/2002/07/owl#unionOf> _:genid49 .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid48 .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Private_institute> .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Government_institute> .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid46 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#may_be> .
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#invigilation
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#invigilation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#invigilation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Duties_of_staff> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#mechanism_for_conducting_exams
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#mechanism_for_conducting_exams> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#mechanism_for_conducting_exams> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Duties_of_staff> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#registration
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#registration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#registration> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Duties_of_staff> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Examiner/controller
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Examiner/controller> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Examiner/controller> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid50 .
+_:genid50 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Manage_time> .
+_:genid50 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#have_duties> .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Examiner/controller> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid51 .
+_:genid51 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#invigilation> .
+_:genid51 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#have_duties> .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Examiner/controller> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Staff> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Biology
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Biology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Biology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Fsc_med_course> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Business_mathmetics_and_statistics
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Business_mathmetics_and_statistics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate_id
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate_id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate_name
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate_name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Chemistry
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Chemistry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Chemistry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Fsc_eng_course> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Chemistry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Fsc_med_course> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Chemistry_med
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Chemistry_med> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Computer
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Computer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Computer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A_IT_course> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Computer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#ICS_Physics_course> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Computer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#ICS_statistics_course> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Economics
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Economics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Economics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A_IT_course> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Economics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A_simple_course> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Education
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Education> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Education> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A_simple_course> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Email
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Email> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#English
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#English> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#English> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A_IT_course> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#English> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A_simple_course> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#English> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Fsc_eng_course> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#English> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Fsc_med_course> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#English> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#I.com_course> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#English> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#ICS_Physics_course> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#English> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#ICS_statistics_course> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Islamiyat_compulsary
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Islamiyat_compulsary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Islamiyat_compulsary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Fsc_eng_course> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Islamiyat_compulsary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Fsc_med_course> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Islamiyat_compulsary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#I.com_course> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Islamiyat_compulsary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#ICS_Physics_course> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Islamiyat_compulsary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#ICS_statistics_course> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Islamiyat_elective
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Islamiyat_elective> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Math
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Math> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Math> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A_IT_course> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Math> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A_simple_course> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Math> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#I.com_course> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Mathmetics
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Mathmetics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Mathmetics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A_IT_course> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Mathmetics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Fsc_eng_course> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Mathmetics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Fsc_med_course> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Mathmetics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#ICS_Physics_course> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Mathmetics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#ICS_statistics_course> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Mobile_no
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Mobile_no> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Pakistan_studies
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Pakistan_studies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Physics
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Physics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Physics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Fsc_eng_course> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Physics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Fsc_med_course> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Physics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#ICS_Physics_course> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Physics_med
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Physics_med> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Practical
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Practical> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Practical> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A_IT> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Practical> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Fsc_pre_eng> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Practical> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Fsc_pre_medical> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Practical> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#I.Com> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Practical> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#ICS_Physics> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Practical> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#ICS_Statistics> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Principle_of_accounting
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Principle_of_accounting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Principle_of_accounting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#I.com_course> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Sociology
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Sociology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Sociology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A_simple_course> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Statistics
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Statistics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Statistics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#ICS_statistics_course> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Theory_exams
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Theory_exams> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Theory_exams> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A_IT> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Theory_exams> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A_simple> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Theory_exams> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Fsc_pre_eng> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Theory_exams> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Fsc_pre_medical> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Theory_exams> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#I.Com> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Theory_exams> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#ICS_Physics> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Theory_exams> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#ICS_Statistics> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Urdu
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Urdu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Urdu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A_IT_course> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Urdu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A_simple_course> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Urdu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Fsc_eng_course> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Urdu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Fsc_med_course> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Urdu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#I.com_course> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Urdu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#ICS_Physics_course> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Urdu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#ICS_statistics_course> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#viva
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#viva> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#viva> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A_IT> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#viva> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Fsc_pre_eng> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#viva> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Fsc_pre_medical> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#viva> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#I.Com> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#viva> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#ICS_Physics> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#viva> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#ICS_Statistics> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Principle_of_Eco_&_commercial_geo
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Principle_of_Eco_&_commercial_geo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Principle_of_commerce_&_Banking_/computer
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Principle_of_commerce_&_Banking_/computer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Principle_of_commerce_&_Banking_/computer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#I.com_course> .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

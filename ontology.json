@@ -1,0 +1,1144 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "iri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23"
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "11",
+    "type" : "owl:Class"
+  }, {
+    "id" : "13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "16",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "17",
+    "type" : "owl:Class"
+  }, {
+    "id" : "21",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "20",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "25",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "27",
+    "type" : "owl:Class"
+  }, {
+    "id" : "24",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "29",
+    "type" : "owl:Class"
+  }, {
+    "id" : "31",
+    "type" : "owl:Class"
+  }, {
+    "id" : "3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "28",
+    "type" : "owl:Class"
+  }, {
+    "id" : "37",
+    "type" : "owl:Class"
+  }, {
+    "id" : "38",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "41",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "44",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "46",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "47",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "49",
+    "type" : "owl:Class"
+  }, {
+    "id" : "50",
+    "type" : "owl:Class"
+  }, {
+    "id" : "51",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "52",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "56",
+    "type" : "owl:Class"
+  }, {
+    "id" : "58",
+    "type" : "owl:Class"
+  }, {
+    "id" : "18",
+    "type" : "owl:Class"
+  }, {
+    "id" : "60",
+    "type" : "owl:Class"
+  }, {
+    "id" : "61",
+    "type" : "owl:Class"
+  }, {
+    "id" : "12",
+    "type" : "owl:Class"
+  }, {
+    "id" : "64",
+    "type" : "owl:Class"
+  }, {
+    "id" : "66",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "63",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "71",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "70",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "74",
+    "type" : "owl:Class"
+  }, {
+    "id" : "75",
+    "type" : "owl:Class"
+  }, {
+    "id" : "78",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "79",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "81",
+    "type" : "owl:Class"
+  }, {
+    "id" : "84",
+    "type" : "owl:Class"
+  }, {
+    "id" : "86",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "88",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "90",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "91",
+    "type" : "owl:Class"
+  }, {
+    "id" : "94",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "100",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "101",
+    "type" : "owl:Class"
+  }, {
+    "id" : "104",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "103",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "108",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "30",
+    "type" : "owl:Class"
+  }, {
+    "id" : "110",
+    "type" : "owl:Class"
+  }, {
+    "id" : "107",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "54",
+    "type" : "owl:Class"
+  }, {
+    "id" : "83",
+    "type" : "owl:Class"
+  }, {
+    "id" : "6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "34",
+    "type" : "owl:Class"
+  }, {
+    "id" : "59",
+    "type" : "owl:Class"
+  }, {
+    "id" : "113",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "115",
+    "type" : "owl:Class"
+  }, {
+    "id" : "117",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "119",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "120",
+    "type" : "owl:Class"
+  }, {
+    "id" : "76",
+    "type" : "owl:Class"
+  }, {
+    "id" : "82",
+    "type" : "owl:Class"
+  }, {
+    "id" : "15",
+    "type" : "owl:Class"
+  }, {
+    "id" : "127",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "128",
+    "type" : "owl:Class"
+  }, {
+    "id" : "57",
+    "type" : "owl:Class"
+  }, {
+    "id" : "130",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "112",
+    "type" : "owl:Class"
+  }, {
+    "id" : "43",
+    "type" : "owl:Class"
+  }, {
+    "id" : "33",
+    "type" : "owl:Class"
+  }, {
+    "id" : "65",
+    "type" : "owl:Class"
+  }, {
+    "id" : "32",
+    "type" : "owl:Class"
+  }, {
+    "id" : "124",
+    "type" : "owl:Class"
+  }, {
+    "id" : "36",
+    "type" : "owl:Class"
+  }, {
+    "id" : "69",
+    "type" : "owl:Class"
+  }, {
+    "id" : "111",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#ICS_Physics_course",
+    "baseIri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23",
+    "instances" : 0,
+    "id" : "2",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "4"
+  }, {
+    "iri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A_course",
+    "baseIri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23",
+    "instances" : 0,
+    "subClasses" : [ "7", "8" ],
+    "id" : "5",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Exam_schedule",
+    "baseIri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23",
+    "instances" : 0,
+    "id" : "9",
+    "superClasses" : [ "10" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Year",
+    "baseIri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23",
+    "instances" : 0,
+    "id" : "11",
+    "superClasses" : [ "12" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#registration",
+    "baseIri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23",
+    "instances" : 0,
+    "id" : "13",
+    "superClasses" : [ "10" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "16"
+  }, {
+    "iri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Online_registration",
+    "baseIri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23",
+    "instances" : 0,
+    "id" : "17",
+    "superClasses" : [ "18" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "21"
+  }, {
+    "iri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A_IT_course",
+    "baseIri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23",
+    "instances" : 0,
+    "id" : "8",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "20"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "25"
+  }, {
+    "iri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Exam_shedule",
+    "baseIri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23",
+    "instances" : 0,
+    "id" : "27",
+    "superClasses" : [ "28" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "24"
+  }, {
+    "iri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Private_institute",
+    "baseIri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23",
+    "instances" : 0,
+    "id" : "29",
+    "superClasses" : [ "30" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#I.Com",
+    "baseIri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23",
+    "instances" : 0,
+    "id" : "31",
+    "superClasses" : [ "32" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Ics_course",
+    "baseIri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23",
+    "instances" : 0,
+    "subClasses" : [ "2", "33" ],
+    "id" : "3",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Exam",
+    "baseIri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23",
+    "instances" : 0,
+    "subClasses" : [ "34", "27" ],
+    "id" : "28"
+  }, {
+    "iri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Private_candidate",
+    "baseIri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23",
+    "instances" : 0,
+    "id" : "37",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "38"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "41"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "44"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "46"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "47"
+  }, {
+    "iri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#mechanism_for_conducting_exams",
+    "baseIri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23",
+    "instances" : 0,
+    "id" : "49",
+    "superClasses" : [ "10" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Manage_time",
+    "baseIri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23",
+    "instances" : 0,
+    "id" : "50",
+    "superClasses" : [ "10" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "51"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "52"
+  }, {
+    "iri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Examiner/controller",
+    "baseIri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23",
+    "instances" : 0,
+    "id" : "56",
+    "superClasses" : [ "57" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Result",
+    "baseIri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23",
+    "instances" : 0,
+    "subClasses" : [ "59" ],
+    "id" : "58"
+  }, {
+    "iri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Registration",
+    "baseIri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23",
+    "instances" : 0,
+    "subClasses" : [ "17", "15" ],
+    "id" : "18"
+  }, {
+    "iri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#invigilation",
+    "baseIri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23",
+    "instances" : 0,
+    "id" : "60",
+    "superClasses" : [ "10" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Admin",
+    "baseIri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23",
+    "instances" : 0,
+    "id" : "61",
+    "superClasses" : [ "57" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Session",
+    "baseIri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23",
+    "instances" : 0,
+    "subClasses" : [ "11" ],
+    "id" : "12"
+  }, {
+    "iri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#ICS_Statistics",
+    "baseIri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23",
+    "instances" : 0,
+    "id" : "64",
+    "superClasses" : [ "65" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "66"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "63"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "71"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "70"
+  }, {
+    "iri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Regular_candidate",
+    "baseIri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23",
+    "instances" : 0,
+    "id" : "74",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Fsc_eng_course",
+    "baseIri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23",
+    "instances" : 0,
+    "id" : "75",
+    "superClasses" : [ "76" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "78"
+  }, {
+    "iri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Government_institute",
+    "baseIri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23",
+    "instances" : 0,
+    "id" : "79",
+    "superClasses" : [ "30" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate",
+    "baseIri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23",
+    "instances" : 0,
+    "subClasses" : [ "74", "37" ],
+    "id" : "1"
+  }, {
+    "iri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Fsc",
+    "baseIri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23",
+    "instances" : 0,
+    "subClasses" : [ "82", "83" ],
+    "id" : "81",
+    "superClasses" : [ "32" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Conduct_meeting",
+    "baseIri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23",
+    "instances" : 0,
+    "id" : "84",
+    "superClasses" : [ "10" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "86"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "88"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "90"
+  }, {
+    "iri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Assign_duties",
+    "baseIri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23",
+    "instances" : 0,
+    "id" : "91",
+    "superClasses" : [ "10" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "94"
+  }, {
+    "iri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Duties_of_staff",
+    "baseIri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23",
+    "instances" : 0,
+    "subClasses" : [ "50", "49", "84", "13", "60", "9", "91" ],
+    "id" : "10"
+  }, {
+    "iri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A_simple_course",
+    "baseIri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23",
+    "instances" : 0,
+    "id" : "7",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "100"
+  }, {
+    "iri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Fsc_med_course",
+    "baseIri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23",
+    "instances" : 0,
+    "id" : "101",
+    "superClasses" : [ "76" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "104"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "103"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "108"
+  }, {
+    "iri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#institute",
+    "baseIri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23",
+    "instances" : 0,
+    "subClasses" : [ "29", "79" ],
+    "id" : "30"
+  }, {
+    "iri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A_simple",
+    "baseIri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23",
+    "instances" : 0,
+    "id" : "110",
+    "superClasses" : [ "111" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "107"
+  }, {
+    "iri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Subjective",
+    "baseIri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23",
+    "instances" : 0,
+    "id" : "54",
+    "superClasses" : [ "34" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Fsc_pre_medical",
+    "baseIri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23",
+    "instances" : 0,
+    "id" : "83",
+    "superClasses" : [ "81" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Course",
+    "baseIri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23",
+    "instances" : 0,
+    "subClasses" : [ "112", "3", "76", "5" ],
+    "id" : "6"
+  }, {
+    "iri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Question_paper",
+    "baseIri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23",
+    "instances" : 0,
+    "subClasses" : [ "43", "54" ],
+    "id" : "34",
+    "superClasses" : [ "28" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidates_criteria",
+    "baseIri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23",
+    "instances" : 0,
+    "id" : "59",
+    "superClasses" : [ "58" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "113"
+  }, {
+    "iri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Exam_centre",
+    "baseIri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23",
+    "instances" : 0,
+    "id" : "115"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "117"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "119"
+  }, {
+    "iri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#ICS_Physics",
+    "baseIri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23",
+    "instances" : 0,
+    "id" : "120",
+    "superClasses" : [ "65" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.sc_course",
+    "baseIri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23",
+    "instances" : 0,
+    "subClasses" : [ "75", "101" ],
+    "id" : "76",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Fsc_pre_eng",
+    "baseIri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23",
+    "instances" : 0,
+    "id" : "82",
+    "superClasses" : [ "81" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Physical_registration",
+    "baseIri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23",
+    "instances" : 0,
+    "id" : "15",
+    "superClasses" : [ "18" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "127"
+  }, {
+    "iri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A_IT",
+    "baseIri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23",
+    "instances" : 0,
+    "id" : "128",
+    "superClasses" : [ "111" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Staff",
+    "baseIri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23",
+    "instances" : 0,
+    "subClasses" : [ "56", "61", "124" ],
+    "id" : "57"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "130"
+  }, {
+    "iri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#I.com_course",
+    "baseIri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23",
+    "instances" : 0,
+    "id" : "112",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Objective",
+    "baseIri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23",
+    "instances" : 0,
+    "id" : "43",
+    "superClasses" : [ "34" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#ICS_statistics_course",
+    "baseIri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23",
+    "instances" : 0,
+    "id" : "33",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#ICS",
+    "baseIri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23",
+    "instances" : 0,
+    "subClasses" : [ "64", "120" ],
+    "id" : "65",
+    "superClasses" : [ "32" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Degree",
+    "baseIri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23",
+    "instances" : 0,
+    "subClasses" : [ "81", "31", "111", "65" ],
+    "id" : "32"
+  }, {
+    "iri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Chairman",
+    "baseIri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23",
+    "instances" : 0,
+    "id" : "124",
+    "superClasses" : [ "57" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Transcript",
+    "baseIri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23",
+    "instances" : 0,
+    "id" : "36"
+  }, {
+    "iri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Roll_no_slip",
+    "baseIri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23",
+    "instances" : 0,
+    "id" : "69"
+  }, {
+    "iri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A",
+    "baseIri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23",
+    "instances" : 0,
+    "subClasses" : [ "110", "128" ],
+    "id" : "111",
+    "superClasses" : [ "32" ]
+  } ],
+  "property" : [ {
+    "id" : "14",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "19",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "22",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "23",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "26",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "35",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "39",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "40",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "42",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "45",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "48",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "53",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "62",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "67",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "68",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "72",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "77",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "85",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "87",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "89",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "92",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "95",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "96",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "99",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "102",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "105",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "106",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "109",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "114",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "116",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "118",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "121",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "122",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "123",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "125",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "126",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "129",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "131",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "132",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "133",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "134",
+    "type" : "owl:objectProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate_age",
+    "baseIri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23",
+    "range" : "4",
+    "domain" : "15",
+    "attributes" : [ "datatype", "allValues" ],
+    "id" : "14"
+  }, {
+    "iri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate_Roll_no",
+    "baseIri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23",
+    "range" : "20",
+    "domain" : "15",
+    "attributes" : [ "datatype", "allValues" ],
+    "id" : "19"
+  }, {
+    "iri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Phone_number",
+    "baseIri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23",
+    "range" : "16",
+    "domain" : "15",
+    "attributes" : [ "datatype", "allValues" ],
+    "id" : "22"
+  }, {
+    "iri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate_age",
+    "baseIri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23",
+    "range" : "24",
+    "domain" : "17",
+    "attributes" : [ "datatype", "allValues" ],
+    "id" : "23"
+  }, {
+    "iri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate_name",
+    "baseIri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23",
+    "range" : "21",
+    "domain" : "15",
+    "attributes" : [ "datatype", "allValues" ],
+    "id" : "26"
+  }, {
+    "iri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#apply_for",
+    "baseIri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23",
+    "range" : "36",
+    "domain" : "1",
+    "attributes" : [ "object" ],
+    "id" : "35"
+  }, {
+    "iri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate_name",
+    "baseIri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23",
+    "range" : "38",
+    "domain" : "17",
+    "attributes" : [ "datatype", "allValues" ],
+    "id" : "39"
+  }, {
+    "iri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate_Roll_no",
+    "baseIri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23",
+    "range" : "25",
+    "domain" : "17",
+    "attributes" : [ "datatype", "allValues" ],
+    "id" : "40"
+  }, {
+    "iri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Short_Questions",
+    "baseIri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23",
+    "range" : "41",
+    "domain" : "43",
+    "attributes" : [ "datatype", "allValues" ],
+    "id" : "42"
+  }, {
+    "iri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Phone_number",
+    "baseIri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23",
+    "range" : "44",
+    "domain" : "17",
+    "attributes" : [ "datatype", "allValues" ],
+    "id" : "45"
+  }, {
+    "iri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#MCQ'S",
+    "baseIri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23",
+    "range" : "47",
+    "domain" : "43",
+    "attributes" : [ "datatype", "allValues" ],
+    "id" : "48"
+  }, {
+    "iri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Long_Questions",
+    "baseIri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23",
+    "range" : "52",
+    "domain" : "54",
+    "attributes" : [ "datatype", "allValues" ],
+    "id" : "53"
+  }, {
+    "iri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#2018-2020",
+    "baseIri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23",
+    "range" : "63",
+    "domain" : "12",
+    "attributes" : [ "datatype", "allValues" ],
+    "id" : "62"
+  }, {
+    "iri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#2015-2017",
+    "baseIri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23",
+    "range" : "51",
+    "domain" : "12",
+    "attributes" : [ "datatype", "allValues" ],
+    "id" : "67"
+  }, {
+    "iri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate_name",
+    "baseIri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23",
+    "range" : "70",
+    "domain" : "69",
+    "attributes" : [ "datatype", "allValues" ],
+    "id" : "68"
+  }, {
+    "iri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Marks_in_numbers",
+    "baseIri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23",
+    "range" : "66",
+    "domain" : "69",
+    "attributes" : [ "datatype", "allValues" ],
+    "id" : "72"
+  }, {
+    "iri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Grades",
+    "baseIri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23",
+    "range" : "71",
+    "domain" : "69",
+    "attributes" : [ "datatype", "allValues" ],
+    "id" : "77"
+  }, {
+    "iri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate_Roll_no",
+    "baseIri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23",
+    "range" : "78",
+    "domain" : "69",
+    "attributes" : [ "datatype", "allValues" ],
+    "id" : "85"
+  }, {
+    "iri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Marks_in_numbers",
+    "baseIri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23",
+    "range" : "86",
+    "domain" : "58",
+    "attributes" : [ "datatype", "allValues" ],
+    "id" : "87"
+  }, {
+    "iri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Percentage",
+    "baseIri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23",
+    "range" : "88",
+    "domain" : "69",
+    "attributes" : [ "datatype", "allValues" ],
+    "id" : "89"
+  }, {
+    "iri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Percentage",
+    "baseIri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23",
+    "range" : "90",
+    "domain" : "58",
+    "attributes" : [ "datatype", "allValues" ],
+    "id" : "92"
+  }, {
+    "iri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Grades",
+    "baseIri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23",
+    "range" : "94",
+    "domain" : "58",
+    "attributes" : [ "datatype", "allValues" ],
+    "id" : "95"
+  }, {
+    "iri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#have_duties",
+    "baseIri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23",
+    "range" : "60",
+    "domain" : "56",
+    "attributes" : [ "object", "someValues" ],
+    "id" : "96"
+  }, {
+    "iri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#have_duties",
+    "baseIri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23",
+    "range" : "50",
+    "domain" : "56",
+    "attributes" : [ "object", "someValues" ],
+    "id" : "99"
+  }, {
+    "iri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Grades",
+    "baseIri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23",
+    "range" : "103",
+    "domain" : "36",
+    "attributes" : [ "datatype", "allValues" ],
+    "id" : "102"
+  }, {
+    "iri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate_name",
+    "baseIri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23",
+    "range" : "100",
+    "domain" : "36",
+    "attributes" : [ "datatype", "allValues" ],
+    "id" : "105"
+  }, {
+    "iri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Marks_in_numbers",
+    "baseIri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23",
+    "range" : "107",
+    "domain" : "36",
+    "attributes" : [ "datatype", "allValues" ],
+    "id" : "106"
+  }, {
+    "iri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate_Roll_no",
+    "baseIri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23",
+    "range" : "104",
+    "domain" : "36",
+    "attributes" : [ "datatype", "allValues" ],
+    "id" : "109"
+  }, {
+    "iri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Jamaya_secondary_high_school",
+    "baseIri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23",
+    "range" : "113",
+    "domain" : "36",
+    "attributes" : [ "datatype", "allValues" ],
+    "id" : "114"
+  }, {
+    "iri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate_age",
+    "baseIri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23",
+    "range" : "108",
+    "domain" : "36",
+    "attributes" : [ "datatype", "allValues" ],
+    "id" : "116"
+  }, {
+    "iri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Percentage",
+    "baseIri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23",
+    "range" : "117",
+    "domain" : "36",
+    "attributes" : [ "datatype", "allValues" ],
+    "id" : "118"
+  }, {
+    "iri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Phone_number",
+    "baseIri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23",
+    "range" : "119",
+    "domain" : "36",
+    "attributes" : [ "datatype", "allValues" ],
+    "id" : "121"
+  }, {
+    "iri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#have_duties",
+    "baseIri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23",
+    "range" : "49",
+    "domain" : "61",
+    "attributes" : [ "object", "someValues" ],
+    "id" : "122"
+  }, {
+    "iri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#have_duties",
+    "baseIri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23",
+    "range" : "84",
+    "domain" : "124",
+    "attributes" : [ "object", "someValues" ],
+    "id" : "123"
+  }, {
+    "iri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#have_duties",
+    "baseIri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23",
+    "range" : "91",
+    "domain" : "124",
+    "attributes" : [ "object", "someValues" ],
+    "id" : "125"
+  }, {
+    "iri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Jamaya_secondary_high_school",
+    "baseIri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23",
+    "range" : "127",
+    "domain" : "115",
+    "attributes" : [ "datatype", "allValues" ],
+    "id" : "126"
+  }, {
+    "iri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Morning",
+    "baseIri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23",
+    "range" : "130",
+    "domain" : "27",
+    "attributes" : [ "datatype", "allValues" ],
+    "id" : "129"
+  }, {
+    "iri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Evening",
+    "baseIri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23",
+    "range" : "46",
+    "domain" : "27",
+    "attributes" : [ "datatype", "allValues" ],
+    "id" : "131"
+  }, {
+    "iri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#have_duties",
+    "baseIri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23",
+    "range" : "9",
+    "domain" : "61",
+    "attributes" : [ "object", "someValues" ],
+    "id" : "132"
+  }, {
+    "iri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#have_duties",
+    "baseIri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23",
+    "range" : "13",
+    "domain" : "61",
+    "attributes" : [ "object", "someValues" ],
+    "id" : "133"
+  }, {
+    "iri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#has_choose",
+    "baseIri" : "http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23",
+    "range" : "1",
+    "domain" : "6",
+    "attributes" : [ "object" ],
+    "id" : "134"
+  } ]
+}

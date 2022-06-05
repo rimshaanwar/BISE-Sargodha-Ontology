@@ -1,0 +1,893 @@
+@prefix : <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#> .
+
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Announced
+:Announced rdf:type owl:ObjectProperty ;
+           rdfs:domain :Candidate ,
+                       :Private_candidate ,
+                       :Regular_candidate ;
+           rdfs:range :Result .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#apply_for
+:apply_for rdf:type owl:ObjectProperty ;
+           rdfs:domain :Candidate ;
+           rdfs:range :Transcript .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#enrolled_in
+:enrolled_in rdf:type owl:ObjectProperty ;
+             rdfs:domain :Candidate ,
+                         :Private_candidate ,
+                         :Regular_candidate ;
+             rdfs:range :Degree ,
+                        :F.A ,
+                        :F.A_IT ,
+                        :Fsc ,
+                        :Fsc_pre_eng ,
+                        :Fsc_pre_medical ,
+                        :I.Com ,
+                        :ICS ,
+                        :ICS_Physics ,
+                        :ICS_Statistics .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#has_candidate
+:has_candidate rdf:type owl:ObjectProperty ;
+               rdfs:domain :Candidate ;
+               rdfs:range :Private_candidate ,
+                          :Regular_candidate .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#has_choose
+:has_choose rdf:type owl:ObjectProperty ;
+            rdfs:domain :Course ;
+            rdfs:range :Candidate .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#have
+:have rdf:type owl:ObjectProperty ;
+      rdfs:domain :Candidate ,
+                  :Private_candidate ,
+                  :Regular_candidate ;
+      rdfs:range :Course ,
+                 :F.A_IT_course ,
+                 :F.A_course ,
+                 :F.A_simple_course ,
+                 :F.sc_course ,
+                 :Fsc_eng_course ,
+                 :Fsc_med_course ,
+                 :I.com_course ,
+                 :ICS_Physics_course ,
+                 :ICS_statistics_course ,
+                 :Ics_course .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#have_duties
+:have_duties rdf:type owl:ObjectProperty ;
+             rdfs:domain :Staff ;
+             rdfs:range :Admin ,
+                        :Chairman ,
+                        <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Examiner/controller> .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#include
+:include rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#may_be
+:may_be rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#may_have
+:may_have rdf:type owl:ObjectProperty ;
+          rdfs:domain :Candidate ,
+                      :Private_candidate ,
+                      :Regular_candidate ;
+          rdfs:range :Government_institute ,
+                     :Private_institute ,
+                     :institute .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#registered_through
+:registered_through rdf:type owl:ObjectProperty ;
+                    rdfs:domain :Candidate ,
+                                :Private_candidate ,
+                                :Regular_candidate ;
+                    rdfs:range :Online_registration ,
+                               :Physical_registration ,
+                               :Registration .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#work_as_a
+:work_as_a rdf:type owl:ObjectProperty ;
+           rdfs:domain :Staff ;
+           rdfs:range :Admin ,
+                      :Chairman ,
+                      <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Examiner/controller> .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate_Roll_no
+:Candidate_Roll_no rdf:type owl:DatatypeProperty ;
+                   rdfs:domain :Candidate ,
+                               [ rdf:type owl:Restriction ;
+                                 owl:onProperty :Candidate_Roll_no ;
+                                 owl:someValuesFrom xsd:string
+                               ] ;
+                   rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate_age
+:Candidate_age rdf:type owl:DatatypeProperty ;
+               rdfs:domain :Candidate ,
+                           [ rdf:type owl:Restriction ;
+                             owl:onProperty :Candidate_age ;
+                             owl:someValuesFrom xsd:integer
+                           ] ;
+               rdfs:range xsd:integer .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate_name
+:Candidate_name rdf:type owl:DatatypeProperty ;
+                rdfs:domain :Candidate ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty :Candidate_name ;
+                              owl:someValuesFrom xsd:string
+                            ] ;
+                rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Course_code
+:Course_code rdf:type owl:DatatypeProperty ;
+             rdfs:domain :Course ,
+                         :F.A_IT_course ,
+                         :F.A_course ,
+                         :F.A_simple_course ,
+                         :F.sc_course ,
+                         :Fsc_eng_course ,
+                         :Fsc_med_course ,
+                         :I.com_course ,
+                         :ICS_Physics_course ,
+                         :ICS_statistics_course ,
+                         :Ics_course ;
+             rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Evening
+:Evening rdf:type owl:DatatypeProperty ;
+         rdfs:domain :Exam ,
+                     :Exam_shedule ;
+         rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Grades
+:Grades rdf:type owl:DatatypeProperty ;
+        rdfs:domain :Candidates_criteria ,
+                    :Result ;
+        rdfs:range xsd:integer .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Jamaya_secondary_high_school
+:Jamaya_secondary_high_school rdf:type owl:DatatypeProperty ;
+                              rdfs:domain :Exam_centre ;
+                              rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Long_Questions
+:Long_Questions rdf:type owl:DatatypeProperty ;
+                rdfs:domain :Question_paper ,
+                            :Subjective ;
+                rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Marks_in_numbers
+:Marks_in_numbers rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Morning
+:Morning rdf:type owl:DatatypeProperty ;
+         rdfs:domain :Exam ,
+                     :Exam_shedule ;
+         rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Percentage
+:Percentage rdf:type owl:DatatypeProperty ;
+            rdfs:domain :Candidates_criteria ,
+                        :Result .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Phone_number
+:Phone_number rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Short_Questions
+:Short_Questions rdf:type owl:DatatypeProperty ;
+                 rdfs:domain :Objective ,
+                             :Question_paper ;
+                 rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#subjects
+:subjects rdf:type owl:DatatypeProperty ;
+          rdfs:domain :Course ,
+                      :F.A_IT_course ,
+                      :F.A_course ,
+                      :F.A_simple_course ,
+                      :F.sc_course ,
+                      :Fsc_eng_course ,
+                      :Fsc_med_course ,
+                      :I.com_course ,
+                      :ICS_Physics_course ,
+                      :ICS_statistics_course ,
+                      :Ics_course ;
+          rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#2015-2017
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#2015-2017> rdf:type owl:DatatypeProperty ;
+                                                                                    rdfs:domain :Session ,
+                                                                                                :Year ;
+                                                                                    rdfs:range xsd:integer .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#2018-2020
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#2018-2020> rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#MCQ'S
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#MCQ'S> rdf:type owl:DatatypeProperty ;
+                                                                                rdfs:domain :Objective ,
+                                                                                            :Question_paper ;
+                                                                                rdfs:range xsd:string .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Admin
+:Admin rdf:type owl:Class ;
+       owl:equivalentClass [ rdf:type owl:Restriction ;
+                             owl:onProperty :have_duties ;
+                             owl:someValuesFrom :Exam_schedule
+                           ] ,
+                           [ rdf:type owl:Restriction ;
+                             owl:onProperty :have_duties ;
+                             owl:someValuesFrom :mechanism_for_conducting_exams
+                           ] ,
+                           [ rdf:type owl:Restriction ;
+                             owl:onProperty :have_duties ;
+                             owl:someValuesFrom :registration
+                           ] ;
+       rdfs:subClassOf :Staff .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Assign_duties
+:Assign_duties rdf:type owl:Class ;
+               rdfs:subClassOf :Duties_of_staff .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate
+:Candidate rdf:type owl:Class ;
+           owl:equivalentClass [ rdf:type owl:Restriction ;
+                                 owl:onProperty :enrolled_in ;
+                                 owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                 owl:onClass :Degree
+                               ] ,
+                               [ rdf:type owl:Restriction ;
+                                 owl:onProperty :has_choose ;
+                                 owl:maxQualifiedCardinality "6"^^xsd:nonNegativeInteger ;
+                                 owl:onClass :Course
+                               ] ,
+                               [ rdf:type owl:Restriction ;
+                                 owl:onProperty :Candidate_Roll_no ;
+                                 owl:maxQualifiedCardinality "6"^^xsd:nonNegativeInteger ;
+                                 owl:onDataRange xsd:integer
+                               ] ,
+                               [ rdf:type owl:Restriction ;
+                                 owl:onProperty :Candidate_age ;
+                                 owl:maxQualifiedCardinality "20"^^xsd:nonNegativeInteger ;
+                                 owl:onDataRange xsd:int
+                               ] .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidates_criteria
+:Candidates_criteria rdf:type owl:Class ;
+                     rdfs:subClassOf :Result .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Chairman
+:Chairman rdf:type owl:Class ;
+          owl:equivalentClass [ rdf:type owl:Restriction ;
+                                owl:onProperty :have_duties ;
+                                owl:someValuesFrom :Assign_duties
+                              ] ,
+                              [ rdf:type owl:Restriction ;
+                                owl:onProperty :have_duties ;
+                                owl:someValuesFrom :Conduct_meeting
+                              ] ;
+          rdfs:subClassOf :Staff .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Conduct_meeting
+:Conduct_meeting rdf:type owl:Class ;
+                 rdfs:subClassOf :Duties_of_staff .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Course
+:Course rdf:type owl:Class ;
+        owl:equivalentClass [ rdf:type owl:Restriction ;
+                              owl:onProperty :subjects ;
+                              owl:maxQualifiedCardinality "6"^^xsd:nonNegativeInteger ;
+                              owl:onDataRange xsd:string
+                            ] .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Degree
+:Degree rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Duties_of_staff
+:Duties_of_staff rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Exam
+:Exam rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Exam_centre
+:Exam_centre rdf:type owl:Class ;
+             owl:equivalentClass [ rdf:type owl:Restriction ;
+                                   owl:onProperty :Jamaya_secondary_high_school ;
+                                   owl:allValuesFrom xsd:string
+                                 ] .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Exam_schedule
+:Exam_schedule rdf:type owl:Class ;
+               rdfs:subClassOf :Duties_of_staff .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Exam_shedule
+:Exam_shedule rdf:type owl:Class ;
+              owl:equivalentClass [ rdf:type owl:Restriction ;
+                                    owl:onProperty :Evening ;
+                                    owl:allValuesFrom xsd:string
+                                  ] ,
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty :Morning ;
+                                    owl:allValuesFrom xsd:string
+                                  ] ;
+              rdfs:subClassOf :Exam .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A
+:F.A rdf:type owl:Class ;
+     rdfs:subClassOf :Degree .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A_IT
+:F.A_IT rdf:type owl:Class ;
+        rdfs:subClassOf :F.A .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A_IT_course
+:F.A_IT_course rdf:type owl:Class ;
+               rdfs:subClassOf :F.A_course .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A_course
+:F.A_course rdf:type owl:Class ;
+            rdfs:subClassOf :Course .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A_simple
+:F.A_simple rdf:type owl:Class ;
+            rdfs:subClassOf :F.A .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.A_simple_course
+:F.A_simple_course rdf:type owl:Class ;
+                   rdfs:subClassOf :F.A_course .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#F.sc_course
+:F.sc_course rdf:type owl:Class ;
+             rdfs:subClassOf :Course .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Fsc
+:Fsc rdf:type owl:Class ;
+     rdfs:subClassOf :Degree .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Fsc_eng_course
+:Fsc_eng_course rdf:type owl:Class ;
+                rdfs:subClassOf :F.sc_course .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Fsc_med_course
+:Fsc_med_course rdf:type owl:Class ;
+                rdfs:subClassOf :F.sc_course .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Fsc_pre_eng
+:Fsc_pre_eng rdf:type owl:Class ;
+             rdfs:subClassOf :Fsc .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Fsc_pre_medical
+:Fsc_pre_medical rdf:type owl:Class ;
+                 rdfs:subClassOf :Fsc .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Government_institute
+:Government_institute rdf:type owl:Class ;
+                      rdfs:subClassOf :institute .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#I.Com
+:I.Com rdf:type owl:Class ;
+       rdfs:subClassOf :Degree .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#I.com_course
+:I.com_course rdf:type owl:Class ;
+              rdfs:subClassOf :Course .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#ICS
+:ICS rdf:type owl:Class ;
+     rdfs:subClassOf :Degree .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#ICS_Physics
+:ICS_Physics rdf:type owl:Class ;
+             rdfs:subClassOf :ICS .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#ICS_Physics_course
+:ICS_Physics_course rdf:type owl:Class ;
+                    rdfs:subClassOf :Ics_course .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#ICS_Statistics
+:ICS_Statistics rdf:type owl:Class ;
+                rdfs:subClassOf :ICS .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#ICS_statistics_course
+:ICS_statistics_course rdf:type owl:Class ;
+                       rdfs:subClassOf :Ics_course .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Ics_course
+:Ics_course rdf:type owl:Class ;
+            rdfs:subClassOf :Course .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Manage_time
+:Manage_time rdf:type owl:Class ;
+             rdfs:subClassOf :Duties_of_staff .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Objective
+:Objective rdf:type owl:Class ;
+           owl:equivalentClass [ rdf:type owl:Restriction ;
+                                 owl:onProperty :Short_Questions ;
+                                 owl:allValuesFrom xsd:string
+                               ] ,
+                               [ rdf:type owl:Restriction ;
+                                 owl:onProperty <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#MCQ'S> ;
+                                 owl:allValuesFrom xsd:string
+                               ] ;
+           rdfs:subClassOf :Question_paper .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Online_registration
+:Online_registration rdf:type owl:Class ;
+                     owl:equivalentClass [ rdf:type owl:Restriction ;
+                                           owl:onProperty :Candidate_Roll_no ;
+                                           owl:allValuesFrom xsd:string
+                                         ] ,
+                                         [ rdf:type owl:Restriction ;
+                                           owl:onProperty :Candidate_age ;
+                                           owl:allValuesFrom xsd:string
+                                         ] ,
+                                         [ rdf:type owl:Restriction ;
+                                           owl:onProperty :Candidate_name ;
+                                           owl:allValuesFrom xsd:string
+                                         ] ,
+                                         [ rdf:type owl:Restriction ;
+                                           owl:onProperty :Phone_number ;
+                                           owl:allValuesFrom xsd:string
+                                         ] ;
+                     rdfs:subClassOf :Registration .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Physical_registration
+:Physical_registration rdf:type owl:Class ;
+                       owl:equivalentClass [ rdf:type owl:Restriction ;
+                                             owl:onProperty :Candidate_Roll_no ;
+                                             owl:allValuesFrom xsd:string
+                                           ] ,
+                                           [ rdf:type owl:Restriction ;
+                                             owl:onProperty :Candidate_age ;
+                                             owl:allValuesFrom xsd:string
+                                           ] ,
+                                           [ rdf:type owl:Restriction ;
+                                             owl:onProperty :Candidate_name ;
+                                             owl:allValuesFrom xsd:string
+                                           ] ,
+                                           [ rdf:type owl:Restriction ;
+                                             owl:onProperty :Phone_number ;
+                                             owl:allValuesFrom xsd:string
+                                           ] ;
+                       rdfs:subClassOf :Registration .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Private_candidate
+:Private_candidate rdf:type owl:Class ;
+                   rdfs:subClassOf :Candidate .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Private_institute
+:Private_institute rdf:type owl:Class ;
+                   rdfs:subClassOf :institute .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Question_paper
+:Question_paper rdf:type owl:Class ;
+                rdfs:subClassOf :Exam .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Registration
+:Registration rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Regular_candidate
+:Regular_candidate rdf:type owl:Class ;
+                   rdfs:subClassOf :Candidate .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Result
+:Result rdf:type owl:Class ;
+        owl:equivalentClass [ rdf:type owl:Restriction ;
+                              owl:onProperty :Grades ;
+                              owl:allValuesFrom xsd:string
+                            ] ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty :Marks_in_numbers ;
+                              owl:allValuesFrom xsd:string
+                            ] ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty :Percentage ;
+                              owl:allValuesFrom xsd:string
+                            ] .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Roll_no_slip
+:Roll_no_slip rdf:type owl:Class ;
+              owl:equivalentClass [ rdf:type owl:Restriction ;
+                                    owl:onProperty :Candidate_Roll_no ;
+                                    owl:allValuesFrom xsd:string
+                                  ] ,
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty :Candidate_name ;
+                                    owl:allValuesFrom xsd:string
+                                  ] ,
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty :Grades ;
+                                    owl:allValuesFrom xsd:string
+                                  ] ,
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty :Marks_in_numbers ;
+                                    owl:allValuesFrom xsd:string
+                                  ] ,
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty :Percentage ;
+                                    owl:allValuesFrom xsd:string
+                                  ] .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Session
+:Session rdf:type owl:Class ;
+         owl:equivalentClass [ rdf:type owl:Restriction ;
+                               owl:onProperty <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#2015-2017> ;
+                               owl:allValuesFrom xsd:integer
+                             ] ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty <http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#2018-2020> ;
+                               owl:allValuesFrom xsd:integer
+                             ] .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Staff
+:Staff rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Subjective
+:Subjective rdf:type owl:Class ;
+            owl:equivalentClass [ rdf:type owl:Restriction ;
+                                  owl:onProperty :Long_Questions ;
+                                  owl:allValuesFrom xsd:string
+                                ] ;
+            rdfs:subClassOf :Question_paper .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Transcript
+:Transcript rdf:type owl:Class ;
+            owl:equivalentClass [ rdf:type owl:Restriction ;
+                                  owl:onProperty :Candidate_Roll_no ;
+                                  owl:allValuesFrom xsd:integer
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty :Candidate_age ;
+                                  owl:allValuesFrom xsd:integer
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty :Candidate_name ;
+                                  owl:allValuesFrom xsd:integer
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty :Grades ;
+                                  owl:allValuesFrom xsd:integer
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty :Jamaya_secondary_high_school ;
+                                  owl:allValuesFrom xsd:integer
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty :Marks_in_numbers ;
+                                  owl:allValuesFrom xsd:integer
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty :Percentage ;
+                                  owl:allValuesFrom xsd:integer
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty :Phone_number ;
+                                  owl:allValuesFrom xsd:integer
+                                ] .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Year
+:Year rdf:type owl:Class ;
+      rdfs:subClassOf :Session .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#institute
+:institute rdf:type owl:Class ;
+           owl:equivalentClass [ rdf:type owl:Restriction ;
+                                 owl:onProperty :may_be ;
+                                 owl:allValuesFrom [ rdf:type owl:Class ;
+                                                     owl:unionOf ( :Government_institute
+                                                                   :Private_institute
+                                                                 )
+                                                   ]
+                               ] .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#invigilation
+:invigilation rdf:type owl:Class ;
+              rdfs:subClassOf :Duties_of_staff .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#mechanism_for_conducting_exams
+:mechanism_for_conducting_exams rdf:type owl:Class ;
+                                rdfs:subClassOf :Duties_of_staff .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#registration
+:registration rdf:type owl:Class ;
+              rdfs:subClassOf :Duties_of_staff .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Examiner/controller
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Examiner/controller> rdf:type owl:Class ;
+                                                                                              owl:equivalentClass [ rdf:type owl:Restriction ;
+                                                                                                                    owl:onProperty :have_duties ;
+                                                                                                                    owl:someValuesFrom :Manage_time
+                                                                                                                  ] ,
+                                                                                                                  [ rdf:type owl:Restriction ;
+                                                                                                                    owl:onProperty :have_duties ;
+                                                                                                                    owl:someValuesFrom :invigilation
+                                                                                                                  ] ;
+                                                                                              rdfs:subClassOf :Staff .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Biology
+:Biology rdf:type owl:NamedIndividual ,
+                  :Fsc_med_course .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Business_mathmetics_and_statistics
+:Business_mathmetics_and_statistics rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate_id
+:Candidate_id rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Candidate_name
+:Candidate_name rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Chemistry
+:Chemistry rdf:type owl:NamedIndividual ,
+                    :Fsc_eng_course ,
+                    :Fsc_med_course .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Chemistry_med
+:Chemistry_med rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Computer
+:Computer rdf:type owl:NamedIndividual ,
+                   :F.A_IT_course ,
+                   :ICS_Physics_course ,
+                   :ICS_statistics_course .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Economics
+:Economics rdf:type owl:NamedIndividual ,
+                    :F.A_IT_course ,
+                    :F.A_simple_course .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Education
+:Education rdf:type owl:NamedIndividual ,
+                    :F.A_simple_course .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Email
+:Email rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#English
+:English rdf:type owl:NamedIndividual ,
+                  :F.A_IT_course ,
+                  :F.A_simple_course ,
+                  :Fsc_eng_course ,
+                  :Fsc_med_course ,
+                  :I.com_course ,
+                  :ICS_Physics_course ,
+                  :ICS_statistics_course .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Islamiyat_compulsary
+:Islamiyat_compulsary rdf:type owl:NamedIndividual ,
+                               :Fsc_eng_course ,
+                               :Fsc_med_course ,
+                               :I.com_course ,
+                               :ICS_Physics_course ,
+                               :ICS_statistics_course .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Islamiyat_elective
+:Islamiyat_elective rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Math
+:Math rdf:type owl:NamedIndividual ,
+               :F.A_IT_course ,
+               :F.A_simple_course ,
+               :I.com_course .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Mathmetics
+:Mathmetics rdf:type owl:NamedIndividual ,
+                     :F.A_IT_course ,
+                     :Fsc_eng_course ,
+                     :Fsc_med_course ,
+                     :ICS_Physics_course ,
+                     :ICS_statistics_course .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Mobile_no
+:Mobile_no rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Pakistan_studies
+:Pakistan_studies rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Physics
+:Physics rdf:type owl:NamedIndividual ,
+                  :Fsc_eng_course ,
+                  :Fsc_med_course ,
+                  :ICS_Physics_course .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Physics_med
+:Physics_med rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Practical
+:Practical rdf:type owl:NamedIndividual ,
+                    :F.A_IT ,
+                    :Fsc_pre_eng ,
+                    :Fsc_pre_medical ,
+                    :I.Com ,
+                    :ICS_Physics ,
+                    :ICS_Statistics .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Principle_of_accounting
+:Principle_of_accounting rdf:type owl:NamedIndividual ,
+                                  :I.com_course .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Sociology
+:Sociology rdf:type owl:NamedIndividual ,
+                    :F.A_simple_course .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Statistics
+:Statistics rdf:type owl:NamedIndividual ,
+                     :ICS_statistics_course .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Theory_exams
+:Theory_exams rdf:type owl:NamedIndividual ,
+                       :F.A_IT ,
+                       :F.A_simple ,
+                       :Fsc_pre_eng ,
+                       :Fsc_pre_medical ,
+                       :I.Com ,
+                       :ICS_Physics ,
+                       :ICS_Statistics .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Urdu
+:Urdu rdf:type owl:NamedIndividual ,
+               :F.A_IT_course ,
+               :F.A_simple_course ,
+               :Fsc_eng_course ,
+               :Fsc_med_course ,
+               :I.com_course ,
+               :ICS_Physics_course ,
+               :ICS_statistics_course .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#viva
+:viva rdf:type owl:NamedIndividual ,
+               :F.A_IT ,
+               :Fsc_pre_eng ,
+               :Fsc_pre_medical ,
+               :I.Com ,
+               :ICS_Physics ,
+               :ICS_Statistics .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Principle_of_Eco_&_commercial_geo
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Principle_of_Eco_&_commercial_geo> rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Principle_of_commerce_&_Banking_/computer
+<http://www.semanticweb.org/umair/ontologies/2022/4/untitled-ontology-23#Principle_of_commerce_&_Banking_/computer> rdf:type owl:NamedIndividual ,
+                                                                                                                             :I.com_course .
+
+
+###  Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
